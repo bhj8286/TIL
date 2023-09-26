@@ -44,3 +44,6 @@ git config --global user.name <이름>
 - `push`
     - `git push <원격저장소이름> <브랜치이름>`
     - 원격저장소에 브랜치를 업로드
+
+- 'branch'
+    - git branch -c "이름" : 브랜치 생성 
