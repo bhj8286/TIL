@@ -76,4 +76,20 @@ set() & set() => &는 교집합을 구해줌
 참고사이트: pep8 파이썬 작성 가이드
 
 10/04
+## 변수 
+1. Number 
+int: 정수, float: 소수, complex: 복합 (1-4j), c.imag: 소수만 추출, c.real: 정수만 추출
+2. Boolean
+True, False로 이루어진 타입 
+3. None
+데이터 없음을 의미
+4. String
+문자열을 의미, `,`과`"` 모두 사용 가능, 둘 중 하나 통일하는 걸 추천 
+string interpolation
+1. %-formatting
+print('홍길동은 %s살입니다.'% age) => 홍길동은 10살입니다.
+2. str.format()
+print('홍길동은 {}살입니다.'.format(age)) => 홍길동은 10살입니다.
+3. f-string -> 가장 최신
+print(f'홍길동은 {age}살입니다.') => 홍길동은 10살입니다.
 
